@@ -1,0 +1,13 @@
+# -git init
+echo "# LR_1" >> README.md
+git status
+git add 
+git commit -m "first commit"
+git status
+git config –-global user.email “angelina.chrdk@gmail.com”
+git config –-global user.name “Angelina”
+git config –-list
+git commit –m “first commit”
+git remote add origin https://github.com/angeluha/LR_1.git
+git push -u origin masters
+
